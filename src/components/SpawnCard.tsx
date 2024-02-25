@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaDownload, FaPlus, FaMinus } from 'react-icons/fa';
+import { FaPlus, FaMinus } from 'react-icons/fa';
 import { generateMultipleWallets, walletsToCsv } from '../utils/utils'; // Adjust the import path as necessary
 
 const SpawnCard: React.FC = () => {
