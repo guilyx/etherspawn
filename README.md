@@ -8,9 +8,8 @@ A simple web app to spawn Ethereum Wallets.
 
 ## Features
 
-- View number of interactions, volume and gas spent for a given address.
-- View token balances for a specific address.
-- Track time statistics about your interactions (see Arbitrum airdrop criteria).
+- Spawn an unlimited amount of Ethereum Wallets. Download to CSV. No data persistency.
+- The same CSV will be usable in future projects... Let's build our airdrop farm many wallets at a time.
 
 ## Getting Started
 
