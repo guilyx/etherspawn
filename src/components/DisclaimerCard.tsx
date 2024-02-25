@@ -1,12 +1,8 @@
-import { FC, useState } from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons';
 
-interface DisclaimerCardProps {
-  address: string;
-}
-
-const DisclaimerCard: FC<DisclaimerCardProps> = () => {
+const DisclaimerCard: React.FC = () => {
   const [show, setShow] = useState(false);
   const handleOpen = () => {
     setShow(!show);
@@ -56,9 +52,7 @@ const DisclaimerCard: FC<DisclaimerCardProps> = () => {
                   Use a secure network when generating wallets and performing transactions to protect against potential
                   security threats.
                 </li>
-                <li>
-                  Code is open-source and transparent. Click on the Github logo to find the sources.
-                </li>
+                <li>Code is open-source and transparent. Click on the Github logo to find the sources.</li>
               </ul>
             </div>
           </div>
