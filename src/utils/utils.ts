@@ -23,7 +23,7 @@ export const generateMultipleWallets = (count: number): Wallet[] => {
 // Function to convert wallet data to CSV format
 export const walletsToCsv = (wallets: Wallet[]): string => {
   let csvContent = 'data:text/csv;charset=utf-8,';
-  csvContent += 'Address,Private Key,Mnemonic Phrase\n'; // CSV Header
+  csvContent += 'address,private_key,seed\n'; // CSV Header
 
   wallets.forEach((wallet) => {
     csvContent += `${wallet.address},${wallet.privateKey},"${wallet.mnemonic}"\n`;
